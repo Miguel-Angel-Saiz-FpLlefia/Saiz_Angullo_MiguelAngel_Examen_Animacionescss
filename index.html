@@ -1,11 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Examen de Animaciones</title>
-</head>
-<body>
-    <h1>Examen de Animaciones Miguel Angel</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pagina">
+      <h1 id="titulo">Examen M0615</h1>
+      <p id="subtitulo">Transicions, Transformaciones i Animacions CSS</p>
+      <h2 class="ejercicio">Exercici 1: Cards amb Transicions</h2>
+      <hr class="hr" />
+      <div class="cards">
+        <div class="card">
+          <div class="imagen">
+            <img src="img/cositas.png" alt="" />
+          </div>
+          <div class="contenido">
+            <p>Card1</p>
+            <p>
+              Aquesta card té transicions de color, escala i ombra al passar el
+              ratolí. Observa com s'eleva visualment amb una transició suau.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imagen">
+            <img src="img/cositas.png" alt="" />
+          </div>
+          <div class="contenido">
+            <p>Card2</p>
+            <p>
+              Les transformacions inclouen scale(1,1) i translateY(-10px) amb
+              una durada de 400ms i easing ease-out
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imagen">
+            <img src="img/cositas.png" alt="" />
+          </div>
+          <div class="contenido">
+            <p>Card3</p>
+            <p>
+              L'ombra augmenta al hover per donar profunditat i sensació
+              d'elevació.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="ejercicio">Exercici 2: Botons amb animacions</h2>
+      <hr class="hr" />
+      <div class="botones">
+        <button id="Transicio">Transicio de fons</button>
+        <button id="Rotacio">Rotacio al click</button>
+        <button id="escala">Escala</button>
+        <button id="combo">Combinacio</button>
+      </div>
+      <h2 class="ejercicio">Exercici 3: Animació amb @keyframes</h2>
+      <hr class="hr" />
+      <div class="pelota"></div>
+      <h2 class="ejercicio">Exercici 4: Menú amb transicions</h2>
+      <hr class="hr" />
+      <nav class="menu">
+        <ul class="ulmenu">
+          <li>
+            Home
+            <div class="linia"></div>
+          </li>
+
+          <li>
+            Sobre
+            <div class="linia"></div>
+          </li>
+          <li>
+            Serveis
+            <div class="linia"></div>
+          </li>
+          <li>
+            Contacte
+            <div class="linia"></div>
+          </li>
+        </ul>
+      </nav>
+      <h2 class="ejercicio">Exercici 5: Loading spinner</h2>
+      <hr class="hr" />
+      <div class="loading1"></div>
+    </div>
+  </body>
 </html>
